@@ -1,0 +1,140 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Montserrat";
+}
+h1{
+	font-family: "Montserrat";
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: bold;
+}
+h2{
+	font-family: "Montserrat";
+	font-size: 2.5rem;
+	line-height: 1.5;
+	font-weight: bold;
+
+}
+h3{
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+p{
+	color: #8f8f8f;
+}
+/*************title section***********/
+/*navbar*/
+.navbar{
+	background-color:black;
+}
+.navbar-brand{
+	font-family: 'Charm', cursive;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+}
+
+/*title*/
+#title{
+	background-color:palegoldenrod;
+}
+.container{
+	padding: 3% 0;
+}
+.custom_btn{
+	margin: 5% 3% 5% 0;
+}
+
+.title_img{
+	width: 70%;
+}
+
+/******************features section******************/
+#features{
+	padding: 7% 15%;
+
+}
+.features_box{
+	text-align: center;
+	padding: 5%;
+}
+.features_icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.features_icon:hover{
+	color: #ff4c68;
+}
+
+/****************testimonials section*************/
+#testimonials{
+	text-align: center;
+	background-color:#ffcdab;
+}
+.testimonials_img{
+	width:20%;
+	height: 20%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+/*********************press section*********************/
+#press{
+	padding-bottom: 3%;
+	text-align: center;
+	background-color:#ffcdab;
+}
+.press_img{
+	width:15%;
+	margin: 20px 20px 50px;
+}
+
+/******************pricing section*******************/
+#pricing{
+	margin: 100px;
+	text-align: center;
+}
+.pricing_column{
+	padding: 3% 2%;
+}
+
+/***************Call Section***************/
+#cta{
+	background-color:#eec89f;
+	padding: 7% 15%;
+	text-align: center;
+}
+.cta_heading{
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/********************footer**************************/
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+	background-color:#f5f5f5;
+}
+.social_icon{
+	margin: 20px 10px;
+}
+
+/*******************media query*******************/
+@media (max-width: 991px){
+	.container{
+		padding: 3% 0;
+		text-align: center;
+		
+	}
+}
