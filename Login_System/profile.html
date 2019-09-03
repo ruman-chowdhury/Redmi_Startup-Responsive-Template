@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login system</title>
+
+	<!-- boortstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!--Google font-->
+	<link href="https://fonts.googleapis.com/css?family=Charm|Merriweather|Montserrat|Sacramento|Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container-fluid">
+
+		<!---navbar section--->
+		<nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+			
+			<a class="navbar-brand" href="">Login System</a>
+
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>	
+
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">	
+				<ul class="navbar-nav ml-auto">
+					
+					<li class="nav-item">
+						<a class="nav-link" href="profile.html">Profile</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="login.html">Login</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="">Logout</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="register.html">Register</a>
+					</li>
+
+				</ul>
+			</div>	
+			
+		</nav><!--nav section-->
+
+<!-- login form -->
+<div class="container content_container">
+
+	<div class="card">
+
+		<div class="card-header ">
+			<h3>
+				User <strong>Profile</strong>
+				<span class="float-right"><a class="btn btn-info" href="index.html">Back</a></span>
+			</h3>
+		</div>
+
+
+		<div class="card-body bg-light">
+
+			<form action="" method="POST" accept-charset="utf-8" class=" custom_form">
+
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" name="name" class="form-control" id="name" value="Ruman chowdhury">
+				</div>
+
+				<div class="form-group">
+					<label for="username">Username:</label>
+					<input type="text" name="username" class="form-control" id="username" value="ruman">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" name="email" class="form-control" id="email" value="rumanc3456@gmail.com">
+				</div>
+
+				
+				<button type="submit" name="update" class="btn btn-success">Update</button>
+
+			</form>
+
+		</div>
+
+	</div><!-- card -->	
+	
+	
+</div><!-- container -->
+
+		
+		<!----- footer----------- -->
+		<footer class="fixed-bottom" id="footer">
+
+			<div class="row">
+				<div class="col-md-8 col-sm-6">
+					<p>© Copyright 2018 Login System</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<i class="social_icon fab fa-facebook-square" id="fb"></i>
+					<i class="social_icon fab fa-twitter-square" id="twitter"></i>
+					<i class="social_icon fab fa-github-square" id="github"></i>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+
+
+	</div><!--container-->
+
+	<!-- ===================js==================== -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
